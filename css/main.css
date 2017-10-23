@@ -1,0 +1,338 @@
+/*ESCRIBE TU CÓDIGO DESDE AQUÍ*/
+body{
+  margin: 1px;
+  padding: 1px;
+}
+a {
+  color: #373B47;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #E95853;
+}
+
+li{
+  list-style: none;
+  display: inline-block;
+  margin-right: 1%;
+}
+
+/*primer contenedor que me sostiene el header*/
+.contenedor1{
+  margin: 0;
+  padding: 0;
+  background-color: white;
+  position: fixed;
+  height: 100px;
+  width: 1345px;
+  z-index: 2;
+}
+/*contenedor que me sostiene el resto de la pagina*/
+.contenedor2{
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  top:30px;
+}
+
+header{
+  margin:0;
+  padding: 0;
+}
+
+/*todos los titulos en mayusculas*/
+h2, h4{
+  text-transform: uppercase;
+  font-weight: bold;
+}
+/*uso el mismo tipo de letra en toda la pagina */
+*{
+  font-family: 'Raleway', sans-serif;
+}
+
+.logo{
+  width: 40%;
+  position: relative;
+  left: 540%;
+}
+/*esto contiene los primeros titulos*/
+.inicio{
+  width: 1340px;
+  height: 500px;
+  margin:0;
+  padding: 0;
+  position: absolute;
+  background-color: transparent;
+  top:210px;
+
+}
+/*los textos del header en negrita*/
+  .link{
+    font-weight: bold;
+  }
+
+/*imagend e fondo que tiene mi inicio*/
+.fondo{
+  position: absolute;
+  width: 1345px;
+  height: 500px;
+  top: 110px;
+}
+/*centro todos los textos de inicio y les doy el color blanco*/
+  .textinicial{
+    text-align: center;
+    color: #fff;
+  }
+  /*llamo el id de mi primer h1 para aumentarle el tamaño*/
+    #h1{
+      font-size: 50px;
+    }
+    /*boton view services*/
+  button{
+    position: absolute;
+    left: 600px;
+    top: 250px;
+    background-color: #01DF74;
+    border: 1px solid #01DF74;
+    color:white;
+    width: 10%;
+  }
+
+/*seccion de services*/
+.services{
+  position: absolute;
+  width: 1345px;
+  height: 600px;
+  margin:0;
+  padding: 0;
+  top:610px;
+  background-color: #f17c72;
+  text-align: center;
+  color: #fff;
+
+}
+/*le doy tamaño a mi texto de services*/
+  .textservice{
+    font-size: 20px;
+  }
+  /*imagenes de services*/
+    .ser1{
+      width: 10%;    
+      position: absolute;
+      margin:10px;
+      top:250px;
+      left: 230px;
+    }
+
+    .ser2{
+      width: 10%;
+      position: absolute;
+      margin:10px;
+      top:250px;
+      left: 530px;
+    }
+
+    .ser3{
+      width: 10%;
+      position: absolute;
+      margin:10px;
+      top:250px;
+      left: 830px;
+    }
+
+    /*textos de las imagenes de services*/
+    .user{
+      width: 10%;
+      position: absolute;
+      top:400px;
+      left: 240px;
+    }
+
+    .concept{
+      width: 10%;
+      position: absolute;
+      top:400px;
+      left: 540px;
+    }
+
+    .design{
+      width: 10%;
+      position: absolute;
+      top:400px;
+      left:840px;   
+    }
+/*seccion de work*/
+.work{
+  position: absolute;
+  width: 1345px;
+  height: 900px;
+  margin-top: 30px;
+  padding: 0;
+  top:1215px;
+  background-color: #fff;
+  text-align: center;
+}
+/*color y tamaño del texto de work*/
+  .textwork{
+    color: #424242;
+    font-size: 20px;
+  }
+/*imagend e computador grande*/
+    .hero{
+      position: absolute;
+      width: 60%;
+      top: 200px;
+      left: 300px;
+    }
+    /*imagenes de work por lineas*/
+    /*primera linea*/
+    .work1{
+      width: 25%;
+      position: absolute;
+      margin:10px;
+      left: 100px;
+      top: 1000px;
+      margin-bottom: 20px;
+    }
+    .work2{
+      width: 25%;
+      position: absolute;
+      margin:5px; 
+      left:530px ; 
+      top: 1000px;
+      margin-bottom: 20px;
+    }
+    .work3{
+      width: 25%;
+      position: absolute;
+      margin:5px;
+      left: 950px; 
+      top: 1000px; 
+      margin-bottom: 20px;
+    }
+
+    /*segunda linea*/
+    .work4{
+      width: 25%;
+      position: absolute;
+      margin:5px;
+      left: 100px;
+      top: 1450px;
+      margin-bottom: 20px;
+    }
+
+    .work5{
+      width: 25%;
+      position: absolute;
+      margin:5px; 
+      left: 530px;
+      top: 1450px;
+      margin-bottom: 20px;
+    }
+
+    .work6{
+      width: 25%;
+      position: absolute;
+      margin:5px; 
+      left: 950px;
+      top: 1450px;
+      margin-bottom: 20px;
+    }
+
+    /*tercera linea*/
+    .work7{
+      width: 25%;
+      position: absolute;
+      margin:5px;
+      left:100px ;
+      top: 1900px;
+      margin-bottom: 20px;
+    }
+
+    .work8{
+      width: 25%;
+      position: absolute;
+      margin:5px;
+      left:530px ;
+      top: 1900px; 
+      margin-bottom: 20px;
+    }
+
+    .work9{
+      width: 25%;
+      position: absolute;
+      margin:5px; 
+      left: 950px;
+      top: 1900px;
+      margin-bottom: 20px;
+    }
+    /*textos de las imagenes (nombre de proyecto)*/
+    /*primera linea*/
+      .proyecto1{
+        left: 210px;
+        top: 1330px;
+        position: absolute;
+        font-weight: bold;
+      }
+      .proyecto2{
+        left:630px ; 
+        top: 1330px;
+        position: absolute;
+        font-weight: bold;
+    }
+      .proyecto3{
+        left: 1040px; 
+        top: 1330px; 
+        position: absolute;
+        font-weight: bold;
+    }
+    /*segunda linea*/
+      .proyecto4{
+        left: 210px;
+        top: 1780px;
+        position: absolute;
+        font-weight: bold;
+    }
+      .proyecto5{
+        left: 630px;
+        top: 1780px;
+        position: absolute;
+        font-weight: bold;
+    }
+      .proyecto6{
+        left: 1040px;
+        top: 1780px;
+        position: absolute;
+        font-weight: bold;
+    }
+    /*tercera linea*/
+      .proyecto7{
+        left:210px ;
+        top: 2200px;
+        position: absolute;
+        font-weight: bold;  
+    }
+      .proyecto8{
+        left:630px ;
+        top: 2200px;
+        position: absolute;
+        font-weight: bold;
+    }
+      .proyecto9{
+        left: 1040px;
+        top: 2200px;
+        position: absolute;
+        font-weight: bold;
+    }
+
+/*footer*/
+.final{
+  position: absolute;
+  top:3520px;
+  width: 1345px;
+  margin:0;
+  padding: 0;
+  text-align: center;
+  background-color: #373b47;
+}
